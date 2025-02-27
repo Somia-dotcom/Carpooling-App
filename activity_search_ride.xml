@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etSource"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Source"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Destination"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/etSeats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number of Seats"
+        android:textColorHint="@color/white"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnFindRides"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Rides" />
+
+    <TextView
+        android:id="@+id/tvRideResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnBookRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Ride" />
+
+</LinearLayout>
